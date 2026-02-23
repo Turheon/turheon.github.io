@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Turheon</title>
+  <link rel="stylesheet" href="css/style.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <a href="index.html">
+    <img src="assets/Turheon.png" alt="Turheon logo" class="logo"/>
+  </a>
+  <nav>
+    <a href="research.html">Research</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero sub-hero">
+  <h1>About Turheon</h1>
+  <p>
+    Intelligence built with clarity, robustness,
+    and long-term systems thinking.
+  </p>
+</section>
+
+<section class="section narrow">
+  <p>
+    Turheon bridges rigorous AI research with real-world
+    decision environments. We focus on optimisation,
+    preference modelling, and responsible deployment
+    of intelligent systems.
+  </p>
+
+  <p>
+    Our philosophy is simple: intelligence must be
+    transparent, accountable, and aligned with
+    human and ecological systems.
+  </p>
+</section>
+
+<section class="section muted">
+  <h2>Principles</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Clarity</h3>
+      <p>Transparent systems over opaque complexity.</p>
+    </div>
+    <div class="card">
+      <h3>Robustness</h3>
+      <p>Models designed for real-world constraints.</p>
+    </div>
+    <div class="card">
+      <h3>Longevity</h3>
+      <p>Building AI that scales responsibly.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Turheon. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
