@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Turheon</title>
+  <link rel="stylesheet" href="css/style.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <a href="index.html">
+    <img src="assets/Turheon.png" alt="Turheon logo" class="logo"/>
+  </a>
+  <nav>
+    <a href="research.html">Research</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero sub-hero">
+  <h1>Contact</h1>
+  <p>
+    Discuss collaborations, advisory work,
+    or system development.
+  </p>
+</section>
+
+<section class="section narrow">
+  <form class="contact-form">
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Your message" rows="5"></textarea>
+    <button type="submit" class="cta">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  © <span id="year"></span> Turheon. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
