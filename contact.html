@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,42 +14,57 @@
 
 <body>
 
-<header>
-  <a href="index.html">
-    <img src="assets/Turheon.png" alt="Turheon logo" class="logo"/>
-  </a>
-  <nav>
-    <a href="research.html">Research</a>
-    <a href="solutions.html">Solutions</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+  <header>
+    <a href="index.html">
+      <img src="assets/Turheon.png" alt="Turheon logo" class="logo" />
+    </a>
+    <nav>
+      <a href="research.html">Research</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<section class="hero sub-hero">
-  <h1>Contact</h1>
-  <p>
-    Discuss collaborations, advisory work,
-    or system development.
-  </p>
-</section>
+  <section class="hero sub-hero" style="max-width: 800px; padding-bottom: 20px;">
+    <h1>Start a Conversation</h1>
+    <p style="font-size: 1.25rem; line-height: 1.7; margin-top: 1.5rem; color: var(--text);">
+      Whether you require high-level strategic consultancy, specialised training to elevate your team's AI literacy, or
+      the end-to-end engineering of a bespoke intelligent system, Turheon is ready to partner with you.
+    </p>
+    <p style="font-size: 1.15rem; color: var(--muted); margin-top: 1rem;">
+      Reach out today to explore how we can architect innovation for the future of your data drivenintelligence.
+    </p>
+  </section>
 
-<section class="section narrow">
-  <form class="contact-form">
-    <input type="text" placeholder="Name" required>
-    <input type="email" placeholder="Email" required>
-    <textarea placeholder="Your message" rows="5"></textarea>
-    <button type="submit" class="cta">Send Message</button>
-  </form>
-</section>
+  <section class="section narrow">
+    <form class="contact-form">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+      </div>
+      <input type="text" placeholder="Organization / Company" required>
+      <select required>
+        <option value="" disabled selected>Nature of Inquiry</option>
+        <option value="consultancy">High-level Strategic Consultancy</option>
+        <option value="training">Team Training & AI Literacy</option>
+        <option value="solution">Bespoke System Engineering</option>
+        <option value="research">Research Collaboration</option>
+        <option value="other">Other Inquiry</option>
+      </select>
+      <textarea placeholder="How can we help you?" rows="6"></textarea>
+      <button type="submit" class="cta">Send Message</button>
+    </form>
+  </section>
 
-<footer>
-  © <span id="year"></span> Turheon. All rights reserved.
-</footer>
+  <footer>
+    © <span id="year"></span> Turheon. All rights reserved.
+  </footer>
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
+
 </html>
