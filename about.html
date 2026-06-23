@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,71 +9,151 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-  <a href="index.html">
-    <img src="assets/Turheon.png" alt="Turheon logo" class="logo"/>
-  </a>
-  <nav>
-    <a href="research.html">Research</a>
-    <a href="solutions.html">Solutions</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+  <header>
+    <a href="index.html">
+      <img src="assets/Turheon.png" alt="Turheon logo" class="logo" />
+    </a>
+    <nav>
+      <a href="research.html">Research</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<section class="hero sub-hero">
-  <h1>About Turheon</h1>
-  <p>
-    Intelligence built with clarity, robustness,
-    and long-term systems thinking.
-  </p>
-</section>
+  <section class="hero sub-hero" style="padding-bottom: 20px;">
+    <h1>About Turheon</h1>
+    <p>
+      Intelligence built with clarity, robustness,
+      and long-term systems thinking.
+    </p>
+  </section>
 
-<section class="section narrow">
-  <p>
-    Turheon bridges rigorous AI research with real-world
-    decision environments. We focus on optimisation,
-    preference modelling, and responsible deployment
-    of intelligent systems.
-  </p>
-
-  <p>
-    Our philosophy is simple: intelligence must be
-    transparent, accountable, and aligned with
-    human and ecological systems.
-  </p>
-</section>
-
-<section class="section muted">
-  <h2>Principles</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Clarity</h3>
-      <p>Transparent systems over opaque complexity.</p>
+  <section class="section narrow" style="padding-top: 0;">
+    <div style="margin-bottom: 3rem; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.5);">
+      <img src="assets/about_hero_image_photoreal_with_logo.png"
+        alt="Realistic server racks integrated with greenery and Turheon logo"
+        style="width: 100%; height: auto; display: block;">
     </div>
-    <div class="card">
-      <h3>Robustness</h3>
-      <p>Models designed for real-world constraints.</p>
-    </div>
-    <div class="card">
-      <h3>Longevity</h3>
-      <p>Building AI that scales responsibly.</p>
-    </div>
-  </div>
-</section>
 
-<footer>
-  © <span id="year"></span> Turheon. All rights reserved.
-</footer>
+    <p class="lead-text">
+      Turheon bridges rigorous AI research with real-world decision environments.
+      We focus on optimisation, preference modelling, and the responsible deployment
+      of intelligent systems at scale.
+    </p>
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+    <blockquote class="philosophy-quote">
+      Our philosophy is simple: intelligence must be transparent, accountable,
+      and profoundly aligned with human and ecological systems.
+    </blockquote>
+  </section>
+
+  <section class="section muted" style="padding: 5rem; border-radius: 24px; margin-top: 4rem;">
+    <h2 style="text-align: center; font-size: 2.2rem; color: #fff; margin-bottom: 4rem;">Our Core Principles</h2>
+
+    <div class="about-grid">
+      <div class="card" style="display: flex; gap: 1.5rem; align-items: flex-start; background: rgba(18, 23, 33, 0.4);">
+        <div style="font-size: 2rem; color: var(--accent); padding-top: 0.2rem; font-weight: 700;">01.</div>
+        <div>
+          <h3 style="font-size: 1.4rem; color: #fff; margin-bottom: 0.5rem;">Clarity</h3>
+          <p style="color: var(--muted); font-size: 1rem;">We favour transparent systems over opaque complexity. Deep
+            understanding of model behaviour is non-negotiable.</p>
+        </div>
+      </div>
+
+      <div class="card" style="display: flex; gap: 1.5rem; align-items: flex-start; background: rgba(18, 23, 33, 0.4);">
+        <div style="font-size: 2rem; color: #4facfe; padding-top: 0.2rem; font-weight: 700;">02.</div>
+        <div>
+          <h3 style="font-size: 1.4rem; color: #fff; margin-bottom: 0.5rem;">Robustness</h3>
+          <p style="color: var(--muted); font-size: 1rem;">Our models are designed mathematically for real-world
+            constraints, enduring uncertainty gracefully.</p>
+        </div>
+      </div>
+
+      <div class="card"
+        style="display: flex; gap: 1.5rem; align-items: flex-start; grid-column: 1 / -1; max-width: 600px; margin: 0 auto; background: rgba(18, 23, 33, 0.4);">
+        <div style="font-size: 2rem; color: #a2b4ea; padding-top: 0.2rem; font-weight: 700;">03.</div>
+        <div>
+          <h3 style="font-size: 1.4rem; color: #fff; margin-bottom: 0.5rem;">Longevity</h3>
+          <p style="color: var(--muted); font-size: 1rem;">We build AI that scales responsibly, integrating seamlessly
+            to support long-term infrastructural and ecological health.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 2rem;">
+    <h2 style="text-align: center; font-size: 2.2rem; color: #fff; margin-bottom: 0.5rem;">Leadership & Research Team
+    </h2>
+    <p
+      style="text-align: center; color: var(--muted); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+      A multidisciplinary group of rigorous thinkers and engineers.
+    </p>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar" style="color: var(--accent);">SS</div>
+        <h4>Stefano Sarti, PhD</h4>
+        <p class="team-role">Founder and CEO</p>
+        <p class="team-desc">Bringing deep AI expertise to architect scalable solutions with a core focus on AI
+          education. Passionate about building intelligent systems that prioritize explainability, robustness, and
+          transparent algorithmic decision-making.</p>
+      </div>
+      <!--
+      <div class="team-card">
+        <div class="team-avatar">AG</div>
+        <h4>Amit Gupta</h4>
+        <p class="team-role" style="color: #4facfe;">AI Engineer</p>
+        <p class="team-desc">Specialises in designing and deploying robust machine learning architectures and scalable
+          backend systems for complex and highly unconstrained data environments.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">DK</div>
+        <h4>Dmitry Kuznetsov</h4>
+        <p class="team-role" style="color: #4facfe;">Large Scale Optimisation & RLHF</p>
+        <p class="team-desc">Pioneers advanced reinforcement learning and large-scale optimisation techniques, ensuring
+          AI models align safely and closely with human feedback and strict constraints.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">AL</div>
+        <h4>Alice Lefebvre</h4>
+        <p class="team-role" style="color: #a2b4ea;">Ecosystem Data Engineer</p>
+        <p class="team-desc">Focuses on building sustainable data pipelines and integrating ecological metrics into AI
+          systems to comprehensively support Green AI initiatives and ecological health.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">ED</div>
+        <h4>Eleanor Davies</h4>
+        <p class="team-role" style="color: #a2b4ea;">Head of Applied Research</p>
+        <p class="team-desc">Leads the translation of rigorous theoretical AI research into practical, high-impact
+          methodologies, driving responsible deployment and iteration across multi-objective spaces.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar" style="color: var(--accent);">SE</div>
+        <h4>Sami Evans</h4>
+        <p class="team-role" style="color: #6cf2c2;">Director of Green AI Solutions</p>
+        <p class="team-desc">Drives strategic initiatives to align AI deployment with sustainable practices, ensuring
+          intelligent systems operate efficiently and actively support global environmental resilience.</p>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Turheon. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
+
 </html>
